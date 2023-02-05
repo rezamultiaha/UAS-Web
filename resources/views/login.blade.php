@@ -19,18 +19,17 @@
               type="name"
               id="name"
               placeholder="Masukan Username"
-              class="w-full bg-transparent border-b-2 p-3 border-sky-600 text-dark placeholder:text-sm placeholder:text-slate-600 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              class="w-full bg-transparent border-b-2 p-3 border-sky-600 text-dark placeholder:text-sm placeholder:text-slate-600 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500"
             />
           </div>
           <div class="mb-8 w-full px-4">
-            <label for="email" class="text-base font-semibold text-primary">Password</label>
+            <label for="password" class="text-base font-semibold">Password</label>
             <input
-              type="email"
-              id="email"
+              type="password"
+              id="password"
               placeholder="Masukan Password"
-              class="peer w-full bg-transparent border-b-2 border-sky-600 p-3 text-dark placeholder:text-sm placeholder:text-slate-600 invalid:text-red-700 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary invalid:focus:border-red-700 invalid:focus:ring-red-700"
+              class="peer w-full bg-transparent border-b-2 border-sky-600 p-3 text-dark placeholder:text-sm placeholder:text-slate-600 invalid:text-red-700 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 "
             />
-            <p class="invisible m-1 text-xs text-red-700 peer-invalid:visible">Email yang anda masukan salah</p>
           </div>
 
           <div class="text-center w-full">
