@@ -8,7 +8,7 @@
 
         <div class="w-full shadow-md md:w-5/12 rounded-lg overflow-hidden">
           <div class="mb-4">
-            <img src="https://source.unsplash.com/360x200?programing" alt="" class="w-full bg-cover" />
+            <img src="https://source.unsplash.com/360x200?{{ $post->category }}" alt="" class="w-full bg-cover" />
           </div>
           <div class="p-6">
             <h1 class="text-xl font-semibold mb-2">
@@ -17,10 +17,13 @@
             <p class="text-base mb-2">
               {{ $post->excerpt }}
             </p>
-            <p class="text-sm text-secondary mb-4">date 03 january 2023</p>
-            <a href="/{{ $post->slug }}" class="text-sm rounded-full bg-primary py-2 px-4">Read more</a>
+            <p class="text-sm text-secondary mb-4">{{ $post->created_at->diffForHumans() }}</p>
+            <a href="/{{ $post->slug }}" class="text-sm rounded-full bg-primary py-2 px-4 text-white">Read more</a>
           </div>
         </div>
         @endforeach
     </div>
-  </section>
+</section>
+
+
+

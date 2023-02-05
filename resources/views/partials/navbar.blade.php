@@ -35,7 +35,7 @@
                 <a href="#" class="button-primary invisible xl:visible">Hubungi kami</a>
               </li>
               <li class="group">
-                <a href="login" class="text-base text-white py-2 mx-6 flex group-hover:text-primary lg:text-sm">Login</a>
+                <a href="/login" class="text-base text-white py-2 mx-6 flex group-hover:text-primary lg:text-sm">Login</a>
               </li>
             </ul>
           </nav>

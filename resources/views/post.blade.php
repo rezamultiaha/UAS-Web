@@ -1,10 +1,15 @@
 @extends('layouts.main')
 
 @section('main')
-    <div class="container h-screen w-screen mt-24">
-        <h1 class="text-xl font-semibold mb-4">{{ $post->title }}</h1>
+    <div class="w-full h-20 bg-[#0E2123]"></div>
+    <div class="container w-full mt-24 mb-20">
+        <h1 class="text-2xl font-semibold">{{ $post->title }}</h1>
+        <p class="text-sm text-secondary mb-6">{{ $post->created_at->diffForHumans() }}</p>
+        <div class="w-full mb-4">
+            <img src="https://source.unsplash.com/700x400?{{ $post->category }}" alt="" >
+        </div>
         <p class="text-base mb-16">{{ $post->body }}</p>
-        <a href="/" class="text-sm rounded-full bg-primary py-2 px-4">Back</a>
+        <a href="/" class="text-sm rounded-full bg-primary py-2 px-4 text-white">Back</a>
 
     </div>
 @endsection
