@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegistrasiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PostController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
+
+Route::get('/register', [RegistrasiController::class, 'index']);
+Route::post('/register', [RegistrasiController::class, 'store']);
+
 Route::get('/{post:slug}', [PostController::class, 'show']);

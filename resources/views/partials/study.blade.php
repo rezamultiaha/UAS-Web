@@ -1,4 +1,4 @@
-<section id="jurusan">
+<section id="jurusan" class="mt-20">
     <div class="container mb-28">
       <h2 class="font-bold text-xl text-three mb-6 lg:text-2xl">Jurusan (Program Study)</h2>
       <div class="flex flex-wrap w-full justify-between items-end mb-10">
@@ -20,4 +20,4 @@
         </div>
       </div>
     </div>
-  </section>
+</section>

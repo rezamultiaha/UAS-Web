@@ -1,3 +1,4 @@
+
 <section id="profil" class="py-28">
     <div class="container">
       <div class="flex flex-wrap w-full justify-center">
@@ -21,4 +22,4 @@
         </div>
       </div>
     </div>
-  </section>
+</section>

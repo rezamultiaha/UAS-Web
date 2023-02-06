@@ -14,7 +14,8 @@
       <!-- Hero End -->
 
       <!-- Visi Start -->
-      @include('partials.visi') Visi End -->
+      @include('partials.visi')
+      {{-- visi End --}}
 
       <!-- Pembuka Start -->
       <section class="flex flex-wrap items-center bg-slate-100">

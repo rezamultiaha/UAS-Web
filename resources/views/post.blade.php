@@ -2,7 +2,7 @@
 
 @section('main')
     <div class="w-full h-20 bg-[#0E2123]"></div>
-    <div class="container w-full mt-24 mb-20">
+    <div class="container w-full mt-12 mb-20">
         <h1 class="text-2xl font-semibold">{{ $post->title }}</h1>
         <p class="text-sm text-secondary mb-6">{{ $post->created_at->diffForHumans() }}</p>
         <div class="w-full mb-4">
